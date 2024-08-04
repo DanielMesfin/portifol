@@ -1,6 +1,6 @@
 import Title from "./Title";
 import ProjectsCard from "./ProjectsCard";
-import { projectOne, projectThree, projectTwo } from "../assets";
+import { telbir, fooddeliver, mbi,ethiomap,esora,todoye } from "../assets";
 import { FadeIn } from "./FadeIn";
 
 const Projects = () => {
@@ -18,40 +18,46 @@ const Projects = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
           <ProjectsCard
-            title="SOCIAL MEDIA CLONE"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectOne}
+            title="TEL BIRR CLONE"
+            des="  A streamlined replica of the Telbir platform, With attractive user interface and
+             collaboration with enhanced user interface and intuitive navigation"
+            src={telbir}
+            gitlink={"https://github.com/DanielMesfin/tel-birr-app"}
           />
           <ProjectsCard
-            title="E-commerce Website"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectTwo}
+            title="Esora Resturant App "
+            des=" A comprehensive platform enabling users to explore local restaurants, browse menus, place orders, and
+             track their order progrss in real-time, ensuring a seamless and efficient dining experience"
+            src={esora}
+            gitlink={"https://github.com/DanielMesfin/ethioClicks"}
           />
           <ProjectsCard
-            title="Chatting App"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectThree}
+            title="Ethio Map"
+            des="A user-friendly app that provides accurate navigation, real-time directions, and powerful search 
+            capabilities to help users find and explore places effortlessly on their mobile devices"
+            src={ethiomap}
+            gitlink={"https://github.com/DanielMesfin/EthioMaps_Flutter"}
           />
           <ProjectsCard
-            title="SOCIAL MEDIA CLONE"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectThree}
+            title="Food Delivery App"
+            des=" A robust platform that facilitates seamless ordering, efficient delivery tracking, and real-time updates,
+             ensuring users receive their favorite meals from local restaurants quickly and conveniently"
+            src={fooddeliver}
+            gitlink={"https://github.com/DanielMesfin/food-delivery-mobile-application"}
           />
           <ProjectsCard
-            title="E-commerce Website"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectOne}
+            title="Bod Mass index Calculater"
+            des=" A simple and intuitive mobile application that allows users to easily calculate their BMI by 
+            entering their height and weight, providing instant feedback on their health status"
+            src={mbi}
+            gitlink={"https://github.com/DanielMesfin/body-mass-index-calculator-by-flutter-for-both-android-and-ios"}
           />
           <ProjectsCard
-            title="Chatting App"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectTwo}
+            title="Manage Task"
+            des="  An efficient and intuitive tool designed to help users organize, prioritize, and track their tasks and projects, with features
+             for setting deadlines, managing to-do lists, and monitoring progress to boost productivity."
+            src={todoye}
+            gitlink={""}
           />
         </div>
       </FadeIn>

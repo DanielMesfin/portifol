@@ -1,10 +1,15 @@
 import { useState } from "react";
 import Slider from "react-slick";
-import { RiStarFill } from "react-icons/ri";
+// import { RiStarFill } from "react-icons/ri";
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 import Title from "./Title";
-import { quote, testimonialOne, testimonialTwo } from "../assets";
+// import { quote, testimonialOne, testimonialTwo,} from "../assets";
+import { quote,} from "../assets";
+
 import { FadeIn } from "./FadeIn";
+import buki from "../assets/images/testmonial/bruk.png"
+import ezedin from "../assets/images/testmonial/ezedin.png"
+import nahom from "../assets/images/testmonial/nahom.png"
 
 function SampleNextArrow(props: any) {
   const { onClick } = props;
@@ -104,16 +109,16 @@ const Testimonial = () => {
                 <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
                   <img
                     className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
-                    src={testimonialOne}
+                    src={ezedin}
                     alt="testimonialOne"
                   />
                   <div className="w-full flex flex-col justify-end">
                     <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                      Bound - Trolola
+                      EthioClicks
                     </p>
-                    <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
+                    <h3 className="text-2xl font-bold">Ezedin W.</h3>
                     <p className="text-base tracking-wide text-gray-500">
-                      Operation Officer
+                      CO Of EthioClicks
                     </p>
                   </div>
                 </div>
@@ -123,26 +128,23 @@ const Testimonial = () => {
                     <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                       <div>
                         <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                          Travel Mobile App Design.
+                        Esoora Restaurant View.
                         </h3>
-                        <p className="text-base text-gray-400 mt-3">
+                        {/* <p className="text-base text-gray-400 mt-3">
                           via Upwork - Mar 4, 2015 - Aug 30, 2021 test
-                        </p>
+                        </p> */}
                       </div>
-                      <div className="text-yellow-500 flex gap-1">
+                      {/* <div className="text-yellow-500 flex gap-1">
                         <RiStarFill />
                         <RiStarFill />
                         <RiStarFill />
                         <RiStarFill />
                         <RiStarFill />
-                      </div>
+                      </div> */}
                     </div>
                     <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      A dolorum, eos natus ipsum numquam veniam officia
-                      necessitatibus ratione quos debitis exercitationem
-                      repudiandae facilis id neque nihil accusantium
-                      perspiciatis repellat? Iste.
+                    I am writing to provide a testimony for Daniel Mesfin  and his exceptional work on the "Testmoy Food Delivery" application, a comprehensive online food delivery system. As a developer with a strong background in mobile application development and backend systems, Tewodros has 
+                    demonstrated remarkable proficiency and dedication throughout the development of this project.
                     </p>
                   </div>
                 </div>
@@ -155,16 +157,16 @@ const Testimonial = () => {
                 <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
                   <img
                     className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
-                    src={testimonialTwo}
+                    src={buki}
                     alt="testimonialTwo"
                   />
                   <div className="w-full flex flex-col justify-end">
                     <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                      Bound - Trolola
+                     KurazTech
                     </p>
-                    <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
+                    <h3 className="text-2xl font-bold">Biruk Mamo</h3>
                     <p className="text-base tracking-wide text-gray-500">
-                      Operation Officer
+                    Founder at KurazTech
                     </p>
                   </div>
                 </div>
@@ -174,26 +176,25 @@ const Testimonial = () => {
                     <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                       <div>
                         <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                          Travel Mobile App Design.
+                        Quize Mobile App .
                         </h3>
-                        <p className="text-base text-gray-400 mt-3">
+                        {/* <p className="text-base text-gray-400 mt-3">
                           via Upwork - Mar 4, 2015 - Aug 30, 2021 test
-                        </p>
+                        </p> */}
                       </div>
-                      <div className="text-yellow-500 flex gap-1">
+                      {/* <div className="text-yellow-500 flex gap-1">
                         <RiStarFill />
                         <RiStarFill />
                         <RiStarFill />
                         <RiStarFill />
                         <RiStarFill />
-                      </div>
+                      </div> */}
                     </div>
                     <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      A dolorum, eos natus ipsum numquam veniam officia
-                      necessitatibus ratione quos debitis exercitationem
-                      repudiandae facilis id neque nihil accusantium
-                      perspiciatis repellat? Iste.
+                    The Quize mobile application developed by Tewodros is an engaging and interactive platform 
+                    designed to provide users with a seamless quiz-taking experience. The application features a
+                     user-friendly interface, a wide variety of quiz categories, 
+                    real-time feedback, and comprehensive scoring and reporting functionalities.
                     </p>
                   </div>
                 </div>
@@ -206,16 +207,17 @@ const Testimonial = () => {
                 <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#020617] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
                   <img
                     className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
-                    src={testimonialOne}
+                    src={nahom}
                     alt="testimonialOne"
                   />
                   <div className="w-full flex flex-col justify-end">
                     <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                      Bound - Trolola
+                      YehaTech
                     </p>
-                    <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
+                    <h3 className="text-2xl font-bold">
+                    Nahome Alemayehu</h3>
                     <p className="text-base tracking-wide text-gray-500">
-                      Operation Officer
+                    Founder at YehaTech
                     </p>
                   </div>
                 </div>
@@ -229,26 +231,23 @@ const Testimonial = () => {
                     <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                       <div>
                         <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                          Travel Mobile App Design.
+                          EthioMaps
                         </h3>
-                        <p className="text-base text-gray-400 mt-3">
+                        {/* <p className="text-base text-gray-400 mt-3">
                           via Upwork - Mar 4, 2015 - Aug 30, 2021 test
-                        </p>
+                        </p> */}
                       </div>
-                      <div className="text-yellow-500 flex gap-1">
+                      {/* <div className="text-yellow-500 flex gap-1">
                         <RiStarFill />
                         <RiStarFill />
                         <RiStarFill />
                         <RiStarFill />
                         <RiStarFill />
-                      </div>
+                      </div> */}
                     </div>
                     <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      A dolorum, eos natus ipsum numquam veniam officia
-                      necessitatibus ratione quos debitis exercitationem
-                      repudiandae facilis id neque nihil accusantium
-                      perspiciatis repellat? Iste.
+                    I am writing to provide a testimony for Daniel Mesfin and his outstanding work on the "Ethiomap" project. As an experienced developer, Tewodros has demonstrated exceptional skills,
+                     dedication, and professionalism in creating this innovative and impactful application.
                     </p>
                   </div>
                 </div>

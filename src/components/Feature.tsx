@@ -1,6 +1,6 @@
 import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe } from "react-icons/fa";
-import { SiProgress, SiAntdesign } from "react-icons/si";
+import { FaMobile, FaGlobe, FaReact } from "react-icons/fa";
+import { SiProgress, SiAntdesign, SiSpring } from "react-icons/si";
 import Card from "./Card";
 import Title from "./Title";
 import { FadeIn } from "./FadeIn";
@@ -15,40 +15,39 @@ const Feature = () => {
         <Title title="Features" des="What I Do" />
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
           <Card
-            title="Business Stratagy"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-      hic consequuntur eum repellendus ad."
-            icon={null}
-          />
-          <Card
-            title="App Development"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-      hic consequuntur eum repellendus ad."
-            icon={<AiFillAppstore />}
-          />
-          <Card
-            title="SEO Optimisation"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-      hic consequuntur eum repellendus ad."
-            icon={<SiProgress />}
-          />
-          <Card
             title="Mobile Development"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-      hic consequuntur eum repellendus ad."
+            des="As a mobile application developer, I specialize in creating, enhancing, and 
+            maintaining applications for mobile devices across various platforms such as Android and iOS."
             icon={<FaMobile />}
           />
           <Card
-            title="UX Design"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-      hic consequuntur eum repellendus ad."
-            icon={<SiAntdesign />}
+            title="Business Strategy Developer"
+            des="I specialize in crafting comprehensive plans to achieve organizational goals and drive growth. 
+            My responsibilities include market analysis, identifying opportunities, setting strategy."
+            icon={null}
           />
           <Card
-            title="Hosting Websites"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-      hic consequuntur eum repellendus ad."
-            icon={<FaGlobe />}
+            title="Web3.0 Developert"
+            des="As a Web 3.0 developer, I specialize in building decentralized applications (dApps) using blockchain technology including smart contract development, integrating decentralized finance (DeFi) protocols, and leveraging distributed ledger technologies for enhanced security and transparency."
+            icon={<FaGlobe/>}
+          />
+          <Card
+            title="Backend Developer"
+            des="As a Spring developer, I build scalable Java-based applications using the Spring framework, including Spring Boot, Spring MVC, Spring Data JPA, and Spring Security."
+            icon={<SiSpring/>}
+          />
+          <Card
+            title="React Developer"
+            des="As a React developer, I build dynamic, responsive user interfaces using React.js and manage state with Redux.
+            My focus is on creating and ensuring high-performance web applications
+            "
+            icon={<FaReact />}
+          />
+          <Card
+            title="UX Design"
+            des="As a UI/UX developer, I design and implement intuitive, visually appealing user interfaces and enhance user experiences.
+             My focus is on creating  and ensuring accessibility and usability."
+            icon={<SiAntdesign />}
           />
         </div>
       </FadeIn>

@@ -45,9 +45,7 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                  Mobile Application Developer
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -75,13 +73,13 @@ const Navbar = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  <a href="https://www.youtube.com/@reactjsBD" target="_blank">
+                  <a href="https://www.youtube.com/channel/UCeYWzbv0C5Ntb2dNbo97E2A" target="_blank">
                     <span className="bannerIcon">
                       <FaYoutube />
                     </span>
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/noor-mohammad-ab2245193/"
+                    href="https://www.linkedin.com/in/daniel-mesfin-0b8b13293/"
                     target="_blank"
                   >
                     <span className="bannerIcon">
@@ -89,7 +87,7 @@ const Navbar = () => {
                     </span>
                   </a>
                   <a
-                    href="https://www.facebook.com/Noorlalu143/"
+                    href="https://www.facebook.com/daniel.mesfin.927758"
                     target="_blank"
                   >
                     <span className="bannerIcon">

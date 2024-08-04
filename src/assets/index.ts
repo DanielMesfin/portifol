@@ -1,21 +1,24 @@
 import logo from "./images/logo.png";
 import bannerImg from "./images/bannerImg.png";
-import projectOne from "./images/projects/projectOne.jpg";
-import projectTwo from "./images/projects/projectTwo.jpg";
-import projectThree from "./images/projects/projectThree.jpeg";
-import testimonialOne from "./images/testmonial/testimonialOne.png";
-import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
+import telbir from "./images/projects/telbir.jpg"
+import ethiomap from "./images/projects/ethiomap.jpg"
+import esora from "./images/projects/esoora.jpg"
+import mbi from "./images/projects/mbi.jpg"
+import todoye from "./images/projects/todoye.jpg"
+import fooddeliver from "./images/projects/food deliver.jpg"
+
 
 export {
   logo,
   bannerImg,
-  projectOne,
-  projectTwo,
-  projectThree,
-  testimonialOne,
-  testimonialTwo,
   quote,
   contactImg,
+  fooddeliver,
+  mbi,
+  telbir,
+  todoye,
+  ethiomap,
+  esora,
 };

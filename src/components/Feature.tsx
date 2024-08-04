@@ -1,6 +1,8 @@
-import { AiFillAppstore } from "react-icons/ai";
+// import { AiFillAppstore } from "react-icons/ai";
 import { FaMobile, FaGlobe, FaReact } from "react-icons/fa";
-import { SiProgress, SiAntdesign, SiSpring } from "react-icons/si";
+// import { SiProgress, SiAntdesign, SiSpring } from "react-icons/si";
+import {SiAntdesign, SiSpring } from "react-icons/si";
+
 import Card from "./Card";
 import Title from "./Title";
 import { FadeIn } from "./FadeIn";

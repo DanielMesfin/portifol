@@ -1,6 +1,6 @@
 import Title from "./Title";
 import ProjectsCard from "./ProjectsCard";
-import { telbir, fooddeliver, mbi,ethiomap,esora,todoye } from "../assets";
+import { telbir, fooddeliver, mbi,ethiomap,esora,todoye, djangoproject } from "../assets";
 import { FadeIn } from "./FadeIn";
 
 const Projects = () => {
@@ -45,6 +45,14 @@ const Projects = () => {
             src={fooddeliver}
             gitlink={"https://github.com/DanielMesfin/food-delivery-mobile-application"}
           />
+          <ProjectsCard
+            title="Abut Car"
+            des=" At About car, we offer a seamless platform for buying and selling cars with unparalleled convenience. Our service connects buyers with a diverse selection of high-quality vehicles, 
+            while providing sellers with an efficient way to list their cars and reach potential buyers."
+            src={djangoproject}
+            gitlink={"https://github.com/DanielMesfin/mekinaye.git"}
+          />
+
           <ProjectsCard
             title="Bod Mass index Calculater"
             des=" A simple and intuitive mobile application that allows users to easily calculate their BMI by 

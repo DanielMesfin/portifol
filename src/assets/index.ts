@@ -8,6 +8,7 @@ import esora from "./images/projects/esoora.jpg"
 import mbi from "./images/projects/mbi.jpg"
 import todoye from "./images/projects/todoye.jpg"
 import fooddeliver from "./images/projects/food deliver.jpg"
+import djangoproject from "./images/projects/django.jpg"
 
 
 export {
@@ -21,4 +22,5 @@ export {
   todoye,
   ethiomap,
   esora,
+  djangoproject,
 };

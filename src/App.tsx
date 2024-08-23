@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import Testimonial from "./components/Testimonial";
 
+
 function App() {
   return (
     <main className="font-bodyFont w-full h-auto bg-bodyColor text-lightText">

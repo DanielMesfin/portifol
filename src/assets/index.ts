@@ -9,6 +9,7 @@ import mbi from "./images/projects/mbi.jpg"
 import todoye from "./images/projects/todoye.jpg"
 import fooddeliver from "./images/projects/food deliver.jpg"
 import djangoproject from "./images/projects/django.jpg"
+import tiktok from "./images/projects/tiktok.jpg";
 
 
 export {
@@ -18,6 +19,7 @@ export {
   contactImg,
   fooddeliver,
   mbi,
+  tiktok,
   telbir,
   todoye,
   ethiomap,
